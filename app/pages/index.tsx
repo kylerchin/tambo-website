@@ -40,7 +40,7 @@ const Home = () => (
 
     <footer>
       <a
-        href="https://discord.com/api/oauth2/authorize?client_id=711405398506078260&permissions=0&redirect_uri=https%3A%2F%2Foath2.shake.yk3music.com%3A50451%2Fapi%2Fdiscord%2Fcallback&scope=bot"
+        href="https://discord.com/api/oauth2/authorize?client_id=711405398506078260&permissions=8&redirect_uri=https%3A%2F%2Foath2.shake.yk3music.com%3A50451%2Fapi%2Fdiscord%2Fcallback&scope=bot"
         target="_blank"
         rel="noopener noreferrer"
       >
