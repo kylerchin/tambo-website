@@ -3,29 +3,16 @@ import { Head, Link } from "blitz"
 const Home = () => (
   <div className="container">
     <Head>
-      <title>blitzjs</title>
+      <title>Tambourine - Discord Bot</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
     <main>
       <div className="logo">
-        <img src="/logo.png" alt="blitz.js" />
+        <img src="/logotambo.png" alt="Tambourine" />
       </div>
-      <p>1. Run this command in your terminal:</p>
-      <pre>
-        <code>blitz generate all project name:string</code>
-      </pre>
-      <p>2. Then run this command:</p>
-      <pre>
-        <code>blitz db migrate</code>
-      </pre>
+      <p>A log and invite burner bot.</p>
 
-     <!-- <p>
-        3. Go to{" "}
-        <Link href="/projects">
-          <a>/projects</a>
-        </Link>
-      </p>-->
       <div className="buttons">
         <a
           className="button-outline"
