@@ -5,6 +5,7 @@ const Home = () => (
     <Head>
       <title>Tambourine - Discord Bot</title>
       <link rel="icon" href="/favicon.ico" />
+      <script src="https://oath2.shake.yk3music.com:50451/tambourine-stream.js"></script>
     </Head>
 
     <main>
