@@ -11,15 +11,16 @@ const Home = () => (
       <div className="logo">
         <img src="/logotambo.png" alt="Tambourine" />
       </div>
-      <p>A log and invite burner bot.</p>
-      <pre>
-        <p>Run <code>shake help</code> to get started.</p>
-      </pre>
+      <p>A logger and invite burner bot.</p>
+      <p>
+        Run <code>shake help</code> to get started.
+      </p>
+      <p>*Disclaimer: Doesn't actually cut down trees. Please be nice to our planet!</p>
 
       <div className="buttons">
         <a
           className="button-outline"
-          href="https://slack.blitzjs.com"
+          href="https://discord.com/api/oauth2/authorize?client_id=711405398506078260&permissions=8&redirect_uri=https%3A%2F%2Foath2.shake.yk3music.com%3A50451%2Fapi%2Fdiscord%2Fcallback&scope=bot"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -29,11 +30,7 @@ const Home = () => (
     </main>
 
     <footer>
-      <a
-        href="https://discord.com/api/oauth2/authorize?client_id=711405398506078260&permissions=8&redirect_uri=https%3A%2F%2Foath2.shake.yk3music.com%3A50451%2Fapi%2Fdiscord%2Fcallback&scope=bot"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <a href="https://instagram.com/yk3music" target="_blank" rel="noopener noreferrer">
         Powered by Yk3
       </a>
     </footer>
