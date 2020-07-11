@@ -20,47 +20,31 @@ const Home = () => (
         <code>blitz db migrate</code>
       </pre>
 
-      <p>
+     <!-- <p>
         3. Go to{" "}
         <Link href="/projects">
           <a>/projects</a>
         </Link>
-      </p>
+      </p>-->
       <div className="buttons">
-        <a
-          className="button"
-          href="https://github.com/blitz-js/blitz/blob/master/USER_GUIDE.md?utm_source=blitz-new&utm_medium=app-template&utm_campaign=blitz-new"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Documentation
-        </a>
-        <a
-          className="button-outline"
-          href="https://github.com/blitz-js/blitz"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Github Repo
-        </a>
         <a
           className="button-outline"
           href="https://slack.blitzjs.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Slack Community
+          Bot Invite
         </a>
       </div>
     </main>
 
     <footer>
       <a
-        href="https://blitzjs.com?utm_source=blitz-new&utm_medium=app-template&utm_campaign=blitz-new"
+        href="https://discord.com/api/oauth2/authorize?client_id=711405398506078260&permissions=0&redirect_uri=https%3A%2F%2Foath2.shake.yk3music.com%3A50451%2Fapi%2Fdiscord%2Fcallback&scope=bot"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Powered by Blitz.js
+        Powered by Yk3
       </a>
     </footer>
 
