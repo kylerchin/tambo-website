@@ -12,6 +12,9 @@ const Home = () => (
         <img src="/logotambo.png" alt="Tambourine" />
       </div>
       <p>A log and invite burner bot.</p>
+      <pre>
+        <p>Run <code>shake help</code> to get started.</p>
+      </pre>
 
       <div className="buttons">
         <a
@@ -88,7 +91,7 @@ const Home = () => (
 
       .buttons {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
         grid-gap: 0.5rem;
         margin-top: 6rem;
       }
