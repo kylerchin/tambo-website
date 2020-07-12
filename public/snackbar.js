@@ -1,11 +1,13 @@
-const queryString = window.location.search;
+//var MDCSnackbar = mdc.snackbar.MDCSnackbar;
 
-const urlParams = new URLSearchParams(queryString);
+import { MDCSnackbar } from "@material/snackbar"
 
-var MDCSnackbar = mdc.snackbar.MDCSnackbar;
+const queryString = window.location.search
 
-const snackbar = new MDCSnackbar(document.querySelector('.bruh-snackbar-success'));
+const urlParams = new URLSearchParams(queryString)
 
-if (urlParams.get('success') === "true") {
-    snackbar.open()
-  }
+const snackbar = new MDCSnackbar(document.querySelector(".bruh-snackbar-success"))
+
+if (urlParams.get("success") === "true") {
+  snackbar.open()
+}

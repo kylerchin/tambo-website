@@ -31,6 +31,7 @@
     "@prisma/cli": "latest",
     "@prisma/client": "latest",
     "blitz": "latest",
+    "material-components-web": "7.0.0",
     "react": "experimental",
     "react-dom": "experimental"
   },
