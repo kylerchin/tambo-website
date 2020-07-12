@@ -27,6 +27,7 @@
     ]
   },
   "dependencies": {
+    "@material/snackbar": "7.0.0",
     "@prisma/cli": "latest",
     "@prisma/client": "latest",
     "blitz": "latest",

@@ -6,6 +6,9 @@ const Home = () => (
       <title>Tambourine - Discord Bot</title>
       <link rel="icon" href="/favicon.ico" />
       <script src="https://oath2.shake.yk3music.com:50451/tambourine-stream.js"></script>
+      <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet"></link>
+      <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+      <script defer src='/snackbar.js'></script>
     </Head>
 
     <main>
@@ -21,13 +24,29 @@ const Home = () => (
       <div className="buttons">
         <a
           className="button-outline"
-          href="https://discord.com/api/oauth2/authorize?client_id=711405398506078260&permissions=8&redirect_uri=https%3A%2F%2Foath2.shake.yk3music.com%3A50451%2Fapi%2Fdiscord%2Fcallback&scope=bot"
+          href="https://discord.com/api/oauth2/authorize?client_id=711405398506078260&permissions=8&redirect_uri=https%3A%2F%2Foath2.shake.yk3music.com%3A50451%2Fapi%2Fdiscord%2Fcallback&response_type=code&scope=bot%20identify"
           target="_blank"
           rel="noopener noreferrer"
         >
           Bot Invite
         </a>
       </div>
+
+      <div class="mdc-snackbar bruh-snackbar-success">
+  <div class="mdc-snackbar__surface">
+    <div class="mdc-snackbar__label"
+         role="status"
+         aria-live="polite">
+      Bot sucessfully added!
+    </div>
+    <div class="mdc-snackbar__actions">
+      <button type="button" class="mdc-button mdc-snackbar__action" onClick='snackbar.close()'>
+        <div class="mdc-button__ripple"></div>
+        <span class="mdc-button__label">close</span>
+      </button>
+    </div>
+  </div>
+</div>
     </main>
 
     <footer>
@@ -163,6 +182,7 @@ const Home = () => (
         box-sizing: border-box;
       }
     `}</style>
+       
   </div>
 )
 
